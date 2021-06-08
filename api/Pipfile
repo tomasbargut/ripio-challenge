@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+autopep8 = "*"
+pep8 = "*"
+isort = "*"
+
+[packages]
+Django = "*"
+psycopg2-binary = "*"
+gunicorn = "*"
+celery = "*"
+redis = "*"
+djangorestframework = "*"
+requests = "*"
+django-oauth-toolkit = "*"
+drf-nested-routers = "*"
+drf-extensions = "*"
+django-cors-headers = "*"
+django-filter = "*"
+
+[scripts]
+start = "./start_server.sh"
+# gunicorn = "gunicorn"
+celery = "celery"
